@@ -1,0 +1,20 @@
+{
+  "name": "imageToWebp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SeokyoungYou/imageToWebp.git",
+  "author": "Quartz <skyu.dev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.ts",
+    "convert:webp": "ts-node scripts/convert-images-to-webp.ts"
+  },
+  "dependencies": {
+    "webp-converter": "^2.3.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "@types/node": "^20.12.7"
+  }
+}

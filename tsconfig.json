@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "commonjs",
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "types": ["node"],
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "typeRoots": ["./types", "./node_modules/@types"]
+  },
+  "include": ["scripts/**/*.ts", "types/**/*.d.ts"]
+}
